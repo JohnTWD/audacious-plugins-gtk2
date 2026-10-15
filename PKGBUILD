@@ -10,7 +10,7 @@
 
 _pkgname=audacious-plugins
 pkgname=$_pkgname-gtk2
-pkgver=4.5.1
+pkgver=4.6.1
 pkgrel=1
 pkgdesc="Plugins for Audacious (GTK-2 version)"
 arch=('i686' 'x86_64')
@@ -26,9 +26,9 @@ makedepends=('meson' 'glib2-devel')
 provides=("$_pkgname")
 conflicts=("$_pkgname")
 source=("https://distfiles.audacious-media-player.org/$_pkgname-$pkgver.tar.bz2"
-        "https://gitlab.archlinux.org/archlinux/packaging/packages/$_pkgname/-/raw/main/sidplay-rom-paths.patch")
-sha256sums=('f4feedc32776acfa9d24701d3b794fc97822f76da6991e91e627e70e561fdd3b'
-            'c32cd36f75dd18db082f9b9447f1c0982279703b9d648f5695295ff25c9b678d')
+        "sidplay-rom-paths.patch")
+sha256sums=('22e58a8a2c3f3caa9687434353618c822963cc8846cd239de36d4e8e5bd166a6'
+            '5740193b5fc5844a8144bdfbba32f67eee5701bc0e4dc94cea00b6680516322e')
 
 prepare() {
   cd $_pkgname-$pkgver
