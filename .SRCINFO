@@ -45,4 +45,4 @@ pkgbase = audacious-plugins-gtk2
 	sha256sums = 22e58a8a2c3f3caa9687434353618c822963cc8846cd239de36d4e8e5bd166a6
 	sha256sums = 5740193b5fc5844a8144bdfbba32f67eee5701bc0e4dc94cea00b6680516322e
 
-pkgname = audacious-plugins-gtk3
+pkgname = audacious-plugins-gtk2
